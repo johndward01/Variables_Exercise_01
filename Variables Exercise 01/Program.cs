@@ -57,11 +57,11 @@ namespace Variables_Exercise_01
             long _long;                 // 64 bit	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
             ulong _ulong;               // 64 bit	                         0 to 18,446,744,073,709,551,615
 
-            float _float;               // 32 bit	               -1.5 x 1045 to 3.4 x 1038
-            double _double;             // 64 bit	                -5 x 10324 to 1.7 x 10308
-            decimal _decimal;           // 128 bit	                     -1028 to 7.9 x 1028
+            float _float;               // 32 bit	              ±1.5 x 10−45 to ±3.4 x 1038
+            double _double;             // 64 bit	             ±5.0 × 10−324 to ±1.7 × 10308
+            decimal _decimal;           // 128 bit	              ±1.0 x 10-28 to ±7.9228 x 1028
 
-            char _char;                 // 16 bit	                         0 to 65535
+            char _char;                 // 16 bit	                0 to 65535 or U +0000 to U +ffff
             bool _bool;                 // ~1 bit	                      True or false
             #endregion
 
