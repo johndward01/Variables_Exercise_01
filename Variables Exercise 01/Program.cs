@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Variables_Exercise_01
 {
@@ -49,21 +50,84 @@ namespace Variables_Exercise_01
             bool _bool;                 // ~1 bit	                      True or false
             #endregion
 
-            // TODO: Declare 5 constansts
+            #region// TODO: Declare 5 constansts
             const int Months = 12, Weeks = 52, Days = 365;
             const int FavoriteNumber = 100;
             const string Cryptographic_GUID = "sldkf$($&*j23o38i*&!idbu12ygeML83#@($^&jkfd78f3$($&*f28CX^&*Uidsjkjf0-I#&YCB#*@!Y$($&**&^D*S!GBFDJHjcbr$($&*jhmdsjc76g1hjbvx3y7u";
+            #endregion
 
-            // TODO: Declare 2 variables of each type from the list above (1 pair for each) 
-            // Make sure to use C# naming convention best practices (camelCase, PascalCase, etc...)
-
-
-
-
+            #region // TODO: Declare 2 variables of each type from the list above (1 pair for each) 
             // TODO: Initialize 1 of the variables with that datatypes minimum value
             // TODO: Initialize the other variable with that datatypes maximum value
-            // TODO: Write out each of the variables to the Console 
+            sbyte mySByte1 = sbyte.MinValue;
+            sbyte mySByte2 = sbyte.MaxValue;
+            byte myByte1 = byte.MinValue;
+            byte myByte2 = byte.MaxValue;
+            short myShort1 = short.MinValue;
+            short myShort2 = short.MaxValue;
+            ushort myUShort1 = ushort.MinValue;
+            ushort myUShort2 = ushort.MaxValue;
+            int myInt1 = int.MinValue;
+            int myInt2 = int.MaxValue;
+            uint myUInt1 = uint.MinValue;
+            uint myUInt2 = uint.MaxValue;
+            long myLong1 = long.MinValue;
+            long myLong2 = long.MaxValue;
+            ulong myULong1 = ulong.MinValue;
+            ulong myULong2 = ulong.MaxValue;
+            float myFloat1 = float.MinValue;
+            float myFloat2 = float.MaxValue;
+            double myDouble1 = double.MinValue;
+            double myDouble2 = double.MaxValue;
+            decimal myDecimal1 = decimal.MinValue;
+            decimal myDecimal2 = decimal.MaxValue;
+            char letter = ' ';
+            char number = '2';
+            char myChar1 = char.MinValue;
+            char myChar2 = char.MaxValue;
+            bool isTrue = true;
+            bool isFalse = false;
+            #endregion
 
+            #region// TODO: Write out each of the variables to the Console 
+
+            Console.WriteLine(mySByte1);
+            Console.WriteLine(mySByte2);
+
+
+            Console.WriteLine(myByte1);
+            Console.WriteLine(myByte2);
+
+            Console.WriteLine(myShort1);
+            Console.WriteLine(myShort2);
+
+            Console.WriteLine(myUShort1);
+            Console.WriteLine(myUShort2);
+
+            Console.WriteLine(myInt1);
+            Console.WriteLine(myInt2);
+
+            Console.WriteLine(myUInt1);
+            Console.WriteLine(myUInt2);
+
+            Console.WriteLine(myLong1);
+            Console.WriteLine(myLong2);
+
+            Console.WriteLine(myULong1);
+            Console.WriteLine(myULong2);
+
+            Console.WriteLine(myFloat1);
+            Console.WriteLine(myFloat2);
+
+            Console.WriteLine(myDouble1);
+            Console.WriteLine(myDouble2);
+
+            Console.WriteLine(myDecimal1);
+            Console.WriteLine(myDecimal2);
+
+            Console.WriteLine(isTrue);
+            Console.WriteLine(isFalse);
+            #endregion
 
 
 
