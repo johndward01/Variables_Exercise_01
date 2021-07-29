@@ -22,7 +22,16 @@ namespace Variables_Exercise_01
             public double Y { get; set; }
         } 
 
-        public enum MyEnum { Sun, Mon, Tue, Wed, Thu, Fri, Sat }; // A Value Type Collection
+        public enum WeekDays { Sun = 1, Mon, Tue, Wed, Thu, Fri, Sat }; // A Value Type Collection
+
+        public enum Suits
+        {
+            Clubs,
+            Diamonds,
+            Spades,
+            Hearts,
+            Jokers
+        }
 
         static void Main(string[] args)
         {
@@ -131,12 +140,22 @@ namespace Variables_Exercise_01
 
 
 
-            // **BONUS**
-            // TODO: Create your own enum and initialize it with constants of your choosing
+            #region// **BONUS**
+            // TODO: Create your own enum and initialize it with constants of your choosing            
             // TODO: Declare it and then iterate through it writing out to the console            
-            // TODO: Instantiate a struct and initialize all of it's members
-            // TODO: Create a program that creatively displays all of the variables you have created
+            PrintEnumItems();
 
+            // TODO: Instantiate a struct and initialize all of it's members
+
+
+            #endregion
+        }
+        public static void PrintEnumItems()
+        {
+            foreach (string name in Enum.GetValues(typeof(Suits)))
+            {
+                Console.WriteLine(name.ToString());
+            }
         }
 
     }
