@@ -50,9 +50,7 @@ namespace Variables_Exercise_01
             #endregion
 
             // TODO: Declare 5 constansts
-            const int Months = 12, Weeks = 52, Days = 365;
-            const int FavoriteNumber = 11;
-            const string Cryptographic_GUID = "sldkf$($&*j23o38i*&!idbu12ygeML83#@($^&jkfd78f3$($&*f28CX^&*Uidsjkjf0-I#&YCB#*@!Y$($&**&^D*S!GBFDJHjcbr$($&*jhmdsjc76g1hjbvx3y7u";
+            
 
             // TODO: Declare 2 variables of each type from the list above (1 pair for each) 
             // Make sure to use C# naming convention best practices (camelCase, PascalCase, etc...)
