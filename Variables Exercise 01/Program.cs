@@ -69,7 +69,6 @@ namespace Variables_Exercise_01
             // TODO: Create your own enum and initialize it with constants of your choosing
             // TODO: Declare it and then iterate through it writing out to the console            
             // TODO: Instantiate a struct and initialize all of it's members
-            // TODO: Create a program that creatively displays all of the variables you have created
 
         }
 
