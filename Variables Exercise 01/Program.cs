@@ -10,7 +10,7 @@ namespace Variables_Exercise_01
             private double X;
             private double Y;
 
-            public PointA(double x, double y) 
+            public PointA(double x, double y)
             {
                 X = x;
                 Y = y;
@@ -20,7 +20,13 @@ namespace Variables_Exercise_01
         {
             public double X { get; set; }
             public double Y { get; set; }
-        } 
+        }
+
+        public struct Person // Bonus
+        {
+            public string name;
+            public int age;
+        }
 
         public enum WeekDays { Sun = 1, Mon, Tue, Wed, Thu, Fri, Sat }; // A Value Type Collection
 
@@ -145,8 +151,15 @@ namespace Variables_Exercise_01
             // TODO: Declare it and then iterate through it writing out to the console            
             PrintEnumItems();
 
-            // TODO: Instantiate a struct and initialize all of it's members
+            // TODO: Instantiate a struct and initialize all of it's members            
+            PointA myStruct2 = new PointA(1, 1);
+            PointB myStruct3 = new PointB();
+            myStruct3.X = 2;
+            myStruct3.Y = 2;
 
+            Person myStruct4; // using fields instead of properties we can use value type instantiation
+            myStruct4.age = 33;
+            myStruct4.name = "John Doe";
 
             #endregion
         }
