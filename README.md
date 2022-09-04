@@ -1,3 +1,4 @@
-# Variables-Exercise-01
+# Variables-Exercise-01-Answers
 
-### Complete all of the TODO's and then push back to GitHub
+- Click on the dropdown and choose the **answer** branch
+> If you enjoyed this exercise please leave it a ⭐
